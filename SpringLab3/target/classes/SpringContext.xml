@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id="product" class="com.edu.Product">
+    <property name="productid" value="1234"></property>
+    <property name="productname" value="Dell Laptop"></property>
+    <property name="productprice" value="50000"></property>
+   
+    </bean>
+    
+
+</beans>
